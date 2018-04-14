@@ -6,17 +6,6 @@
 #include "HumanPeaceful.h"
 #include "HumanWizard.h"
 
-/*HumanFactory::HumanFactory() {
-    data["soldier"] = &createSoldier;
-    data["peaceful"] = &createPeaceful;
-    data["wizard"] = &createWizard;
-}*/
-
-/*template <class T>
-T* HumanFactory::create(std::string& key) {
-    T* temp = data[key];
-}*/
-
 Peaceful* HumanFactory::createPeaceful() {
     return new HumanPeaceful;
 }

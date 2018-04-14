@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Denis/CLionProjects/game-tp/Army.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Army.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Factory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Factory.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanFactory.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanPeaceful.cpp.obj"

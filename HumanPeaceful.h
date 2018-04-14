@@ -10,7 +10,6 @@ public:
     void Atack(Unit*) const override;
     int Defend() const override;
     int Pay_Tax() const override;
-
 };
 
 

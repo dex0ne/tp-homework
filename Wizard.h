@@ -5,8 +5,8 @@
 
 class Wizard : public Unit {
 public:
-    Wizard(int health, int armor, int atack, int potionDamage, int potionRegeneration, std::string unit_name) :
-            Unit(health, armor, atack, unit_name), POTION_DAMAGE(potionDamage), POTION_REGENERATION(potionRegeneration) {}
+    Wizard(int _health, int _armor, int _atack, int _potionDamage, int _potionRegeneration, std::string _unit_name) :
+            Unit(_health, _armor, _atack, _unit_name), POTION_DAMAGE(_potionDamage), POTION_REGENERATION(_potionRegeneration) {}
     virtual ~Wizard() {}
     virtual int Defend() const = 0;
     virtual void Atack(Unit*) const = 0;

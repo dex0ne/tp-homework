@@ -1,18 +1,23 @@
 //
-// Created by Denis on 18.03.2018.
+// Created by Denis on 14.04.2018.
 //
 
-#include <iostream>
 #include "Population.h"
 
+int Population::Pay_Tax() const {
+    int total = 0;
+    for (size_t i = 0; i < population.size(); ++i) {
+        total += population[i]->Pay_Tax();
+    }
+    return total;
+}
+
+void Population::AddPeaceful(Peaceful* unit) {
+    population.push_back(unit);
+}
+
 Population::~Population() {
-    for(int i = 0; i < soldiers.size(); ++i) {
-        delete soldiers[i];
-    }
-    for(int i = 0; i < peaceful.size(); ++i) {
-        delete peaceful[i];
-    }
-    for(int i = 0; i < wizards.size(); ++i) {
-        delete wizards[i];
+    for (size_t i = 0; i < population.size(); ++i) {
+        delete population[i];
     }
 }

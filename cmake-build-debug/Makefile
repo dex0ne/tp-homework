@@ -122,6 +122,33 @@ game_tp/fast:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/build
 .PHONY : game_tp/fast
 
+Army.obj: Army.cpp.obj
+
+.PHONY : Army.obj
+
+# target to build an object file
+Army.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Army.cpp.obj
+.PHONY : Army.cpp.obj
+
+Army.i: Army.cpp.i
+
+.PHONY : Army.i
+
+# target to preprocess a source file
+Army.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Army.cpp.i
+.PHONY : Army.cpp.i
+
+Army.s: Army.cpp.s
+
+.PHONY : Army.s
+
+# target to generate assembly for a file
+Army.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Army.cpp.s
+.PHONY : Army.cpp.s
+
 Factory.obj: Factory.cpp.obj
 
 .PHONY : Factory.obj
@@ -482,6 +509,9 @@ help:
 	@echo ... game_tp
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Army.obj
+	@echo ... Army.i
+	@echo ... Army.s
 	@echo ... Factory.obj
 	@echo ... Factory.i
 	@echo ... Factory.s

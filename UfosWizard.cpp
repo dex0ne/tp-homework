@@ -10,7 +10,7 @@ int UfosWizard::Defend() const {
 }
 
 void UfosWizard::Atack(Unit* enemy) const {
-    enemy->health -= POTION_REGENERATION;
+    enemy->health -= (POTION_REGENERATION + this->ATACK);
 }
 
 void UfosWizard::Treat(Unit* friendly) {

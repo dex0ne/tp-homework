@@ -1,20 +1,24 @@
 //
-// Created by Denis on 18.03.2018.
+// Created by Denis on 14.04.2018.
 //
 
 #ifndef GAME_TP_POPULATION_H
 #define GAME_TP_POPULATION_H
-#include "Soldier.h"
-#include "Wizard.h"
 #include "Peaceful.h"
-#include <vector>
+#include <memory>
 
-class Population {
+//Composite
+
+class Population : public Peaceful {
 public:
     ~Population();
-    std::vector<Peaceful*> peaceful;
-    std::vector<Soldier*> soldiers;
-    std::vector<Wizard*> wizards;
+    int Pay_Tax() const override;
+    void AddPeaceful(Peaceful*) override;
+    int Defend() const {}
+    void Atack(Unit*) const {}
+    Population* GetPopulation() override { return this; }
+private:
+    std::vector<Peaceful*> population;
 };
 
 

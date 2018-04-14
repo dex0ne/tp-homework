@@ -75,45 +75,19 @@ C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
 Unit.h
 C:/Users/Denis/CLionProjects/game-tp/Unit.h
-
-C:/Users/Denis/CLionProjects/game-tp/Player.cpp
-iostream
+memory
 -
-Player.h
-C:/Users/Denis/CLionProjects/game-tp/Player.h
-HumanFactory.h
-C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
-
-C:/Users/Denis/CLionProjects/game-tp/Player.h
-Soldier.h
-C:/Users/Denis/CLionProjects/game-tp/Soldier.h
-Peaceful.h
-C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
-Wizard.h
-C:/Users/Denis/CLionProjects/game-tp/Wizard.h
-Population.h
-C:/Users/Denis/CLionProjects/game-tp/Population.h
-Factory.h
-C:/Users/Denis/CLionProjects/game-tp/Factory.h
-vector
--
-string
+cassert
 -
 
 C:/Users/Denis/CLionProjects/game-tp/Population.cpp
-iostream
--
 Population.h
 C:/Users/Denis/CLionProjects/game-tp/Population.h
 
 C:/Users/Denis/CLionProjects/game-tp/Population.h
-Soldier.h
-C:/Users/Denis/CLionProjects/game-tp/Soldier.h
-Wizard.h
-C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 Peaceful.h
 C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
-vector
+memory
 -
 
 C:/Users/Denis/CLionProjects/game-tp/Soldier.h
@@ -189,8 +163,14 @@ UfosFactory.h
 C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
 HumanSoldier.h
 C:/Users/Denis/CLionProjects/game-tp/HumanSoldier.h
-Player.h
-C:/Users/Denis/CLionProjects/game-tp/Player.h
+HumanWizard.h
+C:/Users/Denis/CLionProjects/game-tp/HumanWizard.h
+Population.h
+C:/Users/Denis/CLionProjects/game-tp/Population.h
+HumanPeaceful.h
+C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.h
 map
+-
+memory
 -
 

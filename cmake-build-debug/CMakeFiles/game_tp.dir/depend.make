@@ -34,22 +34,10 @@ CMakeFiles/game_tp.dir/HumanWizard.cpp.obj: ../HumanWizard.h
 CMakeFiles/game_tp.dir/HumanWizard.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/HumanWizard.cpp.obj: ../Wizard.h
 
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Factory.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../HumanFactory.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Peaceful.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Player.cpp
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Player.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Population.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Soldier.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Unit.h
-CMakeFiles/game_tp.dir/Player.cpp.obj: ../Wizard.h
-
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Population.cpp
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Population.h
-CMakeFiles/game_tp.dir/Population.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Unit.h
-CMakeFiles/game_tp.dir/Population.cpp.obj: ../Wizard.h
 
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj: ../Peaceful.h
@@ -82,9 +70,10 @@ CMakeFiles/game_tp.dir/Unit.cpp.obj: ../Unit.h
 
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanFactory.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanPeaceful.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanSoldier.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanWizard.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Peaceful.h
-CMakeFiles/game_tp.dir/main.cpp.obj: ../Player.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Population.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../UfosFactory.h

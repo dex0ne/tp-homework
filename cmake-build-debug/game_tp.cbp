@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Army.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Army.h">
+			<Option target="game_tp"/>
+		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Factory.cpp">
 			<Option target="game_tp"/>
 		</Unit>
