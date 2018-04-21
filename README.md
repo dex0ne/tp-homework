@@ -20,3 +20,9 @@
 
 # tp-homework-2
 
+Компоновщик
+![composite](https://user-images.githubusercontent.com/36562069/39087291-965bf83e-45a7-11e8-862a-ccc6abf16c4c.jpg)
+Декоратор
+![dec](https://user-images.githubusercontent.com/36562069/39087301-a9e9d902-45a7-11e8-8b4e-cb9aa1406dd5.jpg)
+Адаптер
+![default](https://user-images.githubusercontent.com/36562069/39087306-b272c69c-45a7-11e8-91fa-20935548e600.jpg)
