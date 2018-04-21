@@ -20,32 +20,16 @@ public:
 
 class WizardSuperAtack : public IWizardAtackDecorator {
 public:
-    explicit WizardSuperAtack(Wizard* _wizard) : wizard(_wizard) {}
-    void Atack(Unit* enemy) const override {
-        double lowerBound = 0;
-        double upperBound = 1;
-        std::uniform_real_distribution<double> unif(lowerBound,upperBound);
-        std::default_random_engine re;
-        double randomAtackCoefficient = unif(re);
-        wizard->Atack(enemy);
-        enemy->health = static_cast<int>(enemy->health * randomAtackCoefficient);
-    }
+    explicit WizardSuperAtack(Wizard*);
+    void Atack(Unit*) const override;
 private:
     Wizard* wizard;
 };
 
 class WizardSpellAtack : public IWizardAtackDecorator {
 public:
-    explicit WizardSpellAtack(Wizard* _wizard) : wizard(_wizard) {}
-    void Atack(Unit* enemy) const override {
-        int lowerBound = 10;
-        int upperBound = 15;
-        std::uniform_int_distribution<int> unif(lowerBound,upperBound);
-        std::default_random_engine re;
-        int randomSpellCoefficient = unif(re);
-        wizard->Atack(enemy);
-        enemy->ATACK -= randomSpellCoefficient;
-    }
+    explicit WizardSpellAtack(Wizard*);
+    void Atack(Unit*) const override;
 private:
     Wizard* wizard;
 };
