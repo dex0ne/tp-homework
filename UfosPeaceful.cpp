@@ -11,6 +11,6 @@ int UfosPeaceful::Defend() const {
     return 0;
 }
 
-int UfosPeaceful::Pay_Tax() const {
+int UfosPeaceful::PayTax() const {
     return static_cast<int>(this->TAX_AMOUNT * this->TAX_INDEX);
 }

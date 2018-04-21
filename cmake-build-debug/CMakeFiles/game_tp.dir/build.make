@@ -392,6 +392,54 @@ CMakeFiles/game_tp.dir/Player.cpp.obj.provides: CMakeFiles/game_tp.dir/Player.cp
 CMakeFiles/game_tp.dir/Player.cpp.obj.provides.build: CMakeFiles/game_tp.dir/Player.cpp.obj
 
 
+CMakeFiles/game_tp.dir/MagicSquad.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/MagicSquad.cpp.obj: ../MagicSquad.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/game_tp.dir/MagicSquad.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\MagicSquad.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\MagicSquad.cpp
+
+CMakeFiles/game_tp.dir/MagicSquad.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/MagicSquad.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\MagicSquad.cpp > CMakeFiles\game_tp.dir\MagicSquad.cpp.i
+
+CMakeFiles/game_tp.dir/MagicSquad.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/MagicSquad.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\MagicSquad.cpp -o CMakeFiles\game_tp.dir\MagicSquad.cpp.s
+
+CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.provides: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.provides.build: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj
+
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj: ../WizardAtackDecorators.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\WizardAtackDecorators.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\WizardAtackDecorators.cpp
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\WizardAtackDecorators.cpp > CMakeFiles\game_tp.dir\WizardAtackDecorators.cpp.i
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\WizardAtackDecorators.cpp -o CMakeFiles\game_tp.dir\WizardAtackDecorators.cpp.s
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides.build: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
+
+
 # Object files for target game_tp
 game_tp_OBJECTS = \
 "CMakeFiles/game_tp.dir/main.cpp.obj" \
@@ -407,7 +455,9 @@ game_tp_OBJECTS = \
 "CMakeFiles/game_tp.dir/Factory.cpp.obj" \
 "CMakeFiles/game_tp.dir/Population.cpp.obj" \
 "CMakeFiles/game_tp.dir/Army.cpp.obj" \
-"CMakeFiles/game_tp.dir/Player.cpp.obj"
+"CMakeFiles/game_tp.dir/Player.cpp.obj" \
+"CMakeFiles/game_tp.dir/MagicSquad.cpp.obj" \
+"CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj"
 
 # External object files for target game_tp
 game_tp_EXTERNAL_OBJECTS =
@@ -426,11 +476,13 @@ game_tp.exe: CMakeFiles/game_tp.dir/Factory.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/Population.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/Army.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/Player.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/build.make
 game_tp.exe: CMakeFiles/game_tp.dir/linklibs.rsp
 game_tp.exe: CMakeFiles/game_tp.dir/objects1.rsp
 game_tp.exe: CMakeFiles/game_tp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable game_tp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable game_tp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game_tp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -452,6 +504,8 @@ CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Factory.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Population.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Army.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Player.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.requires
 
 .PHONY : CMakeFiles/game_tp.dir/requires
 

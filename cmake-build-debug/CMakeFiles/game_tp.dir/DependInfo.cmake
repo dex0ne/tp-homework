@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanPeaceful.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanSoldier.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanSoldier.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanWizard.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanWizard.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/MagicSquad.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/MagicSquad.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Player.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Player.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Population.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Population.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/UfosFactory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosFactory.cpp.obj"
@@ -17,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Denis/CLionProjects/game-tp/UfosSoldier.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosSoldier.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/UfosWizard.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosWizard.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Unit.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Unit.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/main.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

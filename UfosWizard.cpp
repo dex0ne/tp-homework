@@ -17,6 +17,6 @@ void UfosWizard::Treat(Unit* friendly) {
     friendly->health += POTION_REGENERATION;
 }
 
-void UfosWizard::Treat_Yourself() {
+void UfosWizard::TreatYourself() {
     this->health += static_cast<int>(POTION_REGENERATION * 0.4);
 }

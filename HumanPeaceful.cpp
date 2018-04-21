@@ -13,6 +13,6 @@ int HumanPeaceful::Defend() const {
     return ARMOR;
 }
 
-int HumanPeaceful::Pay_Tax() const {
+int HumanPeaceful::PayTax() const {
     return static_cast<int>(this->TAX_AMOUNT * this->TAX_INDEX);
 }

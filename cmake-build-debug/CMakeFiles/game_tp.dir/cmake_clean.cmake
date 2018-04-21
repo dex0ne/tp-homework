@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/game_tp.dir/Population.cpp.obj"
   "CMakeFiles/game_tp.dir/Army.cpp.obj"
   "CMakeFiles/game_tp.dir/Player.cpp.obj"
+  "CMakeFiles/game_tp.dir/MagicSquad.cpp.obj"
+  "CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj"
   "game_tp.pdb"
   "game_tp.exe"
   "game_tp.exe.manifest"

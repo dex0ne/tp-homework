@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Denis/CLionProjects/game-tp/Army.cpp
+Army.h
+C:/Users/Denis/CLionProjects/game-tp/Army.h
+
+C:/Users/Denis/CLionProjects/game-tp/Army.h
+Unit.h
+C:/Users/Denis/CLionProjects/game-tp/Unit.h
+Soldier.h
+C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+Wizard.h
+C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+
 C:/Users/Denis/CLionProjects/game-tp/Factory.cpp
 Factory.h
 C:/Users/Denis/CLionProjects/game-tp/Factory.h
@@ -72,6 +84,14 @@ C:/Users/Denis/CLionProjects/game-tp/HumanWizard.h
 Wizard.h
 C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 
+C:/Users/Denis/CLionProjects/game-tp/MagicSquad.cpp
+MagicSquad.h
+C:/Users/Denis/CLionProjects/game-tp/MagicSquad.h
+
+C:/Users/Denis/CLionProjects/game-tp/MagicSquad.h
+Wizard.h
+C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+
 C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
 Unit.h
 C:/Users/Denis/CLionProjects/game-tp/Unit.h
@@ -79,6 +99,20 @@ memory
 -
 cassert
 -
+
+C:/Users/Denis/CLionProjects/game-tp/Player.cpp
+Player.h
+C:/Users/Denis/CLionProjects/game-tp/Player.h
+
+C:/Users/Denis/CLionProjects/game-tp/Player.h
+iostream
+-
+string
+-
+vector
+-
+Factory.h
+C:/Users/Denis/CLionProjects/game-tp/Factory.h
 
 C:/Users/Denis/CLionProjects/game-tp/Population.cpp
 Population.h
@@ -91,6 +125,8 @@ memory
 -
 
 C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+stdexcept
+-
 Unit.h
 C:/Users/Denis/CLionProjects/game-tp/Unit.h
 
@@ -147,8 +183,22 @@ string
 -
 
 C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+stdexcept
+-
 Unit.h
 C:/Users/Denis/CLionProjects/game-tp/Unit.h
+
+C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.cpp
+WizardAtackDecorators.h
+C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
+
+C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
+Wizard.h
+C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+random
+-
+iostream
+-
 
 C:/Users/Denis/CLionProjects/game-tp/main.cpp
 iostream
@@ -169,6 +219,18 @@ Population.h
 C:/Users/Denis/CLionProjects/game-tp/Population.h
 HumanPeaceful.h
 C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.h
+Army.h
+C:/Users/Denis/CLionProjects/game-tp/Army.h
+UfosSoldier.h
+C:/Users/Denis/CLionProjects/game-tp/UfosSoldier.h
+MagicSquad.h
+C:/Users/Denis/CLionProjects/game-tp/MagicSquad.h
+UfosWizard.h
+C:/Users/Denis/CLionProjects/game-tp/UfosWizard.h
+WizardAtackDecorators.h
+C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
+Player.h
+C:/Users/Denis/CLionProjects/game-tp/Player.h
 map
 -
 memory

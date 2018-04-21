@@ -9,7 +9,7 @@ public:
     ~UfosPeaceful();
     void Atack(Unit*) const override;
     int Defend() const override;
-    int Pay_Tax() const override;
+    int PayTax() const override;
 };
 
 

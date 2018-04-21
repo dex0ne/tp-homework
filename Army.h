@@ -8,14 +8,17 @@
 #include "Soldier.h"
 #include "Wizard.h"
 
-class Army : public Unit {
+class Army : public Soldier {
 public:
-    int Atack() const override;
-
-
+    explicit Army(std::string _name) : Soldier(_name) {}
+    ~Army();
+    int Defend() const {};
+    void Atack(Unit*) const override;
+    int AtackBuilding() const override;
+    void AddSoldier(Soldier*) override;
+    Army* GetSoldier() override { return this; }
 private:
     std::vector<Soldier*> soldiers;
-    std::vector<Wizard*> wizards;
 
 };
 

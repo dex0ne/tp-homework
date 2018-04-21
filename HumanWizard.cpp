@@ -17,6 +17,6 @@ void HumanWizard::Treat(Unit* friendly) {
     friendly->health += POTION_REGENERATION;
 }
 
-void HumanWizard::Treat_Yourself() {
+void HumanWizard::TreatYourself() {
     this->health += static_cast<int>(POTION_REGENERATION * 0.33);
 }

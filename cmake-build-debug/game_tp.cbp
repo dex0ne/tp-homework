@@ -118,6 +118,12 @@
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/HumanWizard.h">
 			<Option target="game_tp"/>
 		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/MagicSquad.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/MagicSquad.h">
+			<Option target="game_tp"/>
+		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Peaceful.h">
 			<Option target="game_tp"/>
 		</Unit>
@@ -167,6 +173,12 @@
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Wizard.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h">
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/main.cpp">

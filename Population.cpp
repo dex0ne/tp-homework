@@ -4,10 +4,10 @@
 
 #include "Population.h"
 
-int Population::Pay_Tax() const {
+int Population::PayTax() const {
     int total = 0;
     for (size_t i = 0; i < population.size(); ++i) {
-        total += population[i]->Pay_Tax();
+        total += population[i]->PayTax();
     }
     return total;
 }

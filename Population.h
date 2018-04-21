@@ -11,8 +11,9 @@
 
 class Population : public Peaceful {
 public:
+    explicit Population(std::string _name) : Peaceful(_name) {}
     ~Population();
-    int Pay_Tax() const override;
+    int PayTax() const override;
     void AddPeaceful(Peaceful*) override;
     int Defend() const {}
     void Atack(Unit*) const {}

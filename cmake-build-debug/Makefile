@@ -284,6 +284,33 @@ HumanWizard.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/HumanWizard.cpp.s
 .PHONY : HumanWizard.cpp.s
 
+MagicSquad.obj: MagicSquad.cpp.obj
+
+.PHONY : MagicSquad.obj
+
+# target to build an object file
+MagicSquad.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/MagicSquad.cpp.obj
+.PHONY : MagicSquad.cpp.obj
+
+MagicSquad.i: MagicSquad.cpp.i
+
+.PHONY : MagicSquad.i
+
+# target to preprocess a source file
+MagicSquad.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/MagicSquad.cpp.i
+.PHONY : MagicSquad.cpp.i
+
+MagicSquad.s: MagicSquad.cpp.s
+
+.PHONY : MagicSquad.s
+
+# target to generate assembly for a file
+MagicSquad.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/MagicSquad.cpp.s
+.PHONY : MagicSquad.cpp.s
+
 Player.obj: Player.cpp.obj
 
 .PHONY : Player.obj
@@ -473,6 +500,33 @@ Unit.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Unit.cpp.s
 .PHONY : Unit.cpp.s
 
+WizardAtackDecorators.obj: WizardAtackDecorators.cpp.obj
+
+.PHONY : WizardAtackDecorators.obj
+
+# target to build an object file
+WizardAtackDecorators.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
+.PHONY : WizardAtackDecorators.cpp.obj
+
+WizardAtackDecorators.i: WizardAtackDecorators.cpp.i
+
+.PHONY : WizardAtackDecorators.i
+
+# target to preprocess a source file
+WizardAtackDecorators.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.i
+.PHONY : WizardAtackDecorators.cpp.i
+
+WizardAtackDecorators.s: WizardAtackDecorators.cpp.s
+
+.PHONY : WizardAtackDecorators.s
+
+# target to generate assembly for a file
+WizardAtackDecorators.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.s
+.PHONY : WizardAtackDecorators.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -527,6 +581,9 @@ help:
 	@echo ... HumanWizard.obj
 	@echo ... HumanWizard.i
 	@echo ... HumanWizard.s
+	@echo ... MagicSquad.obj
+	@echo ... MagicSquad.i
+	@echo ... MagicSquad.s
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
@@ -548,6 +605,9 @@ help:
 	@echo ... Unit.obj
 	@echo ... Unit.i
 	@echo ... Unit.s
+	@echo ... WizardAtackDecorators.obj
+	@echo ... WizardAtackDecorators.i
+	@echo ... WizardAtackDecorators.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
