@@ -13,7 +13,7 @@ public:
     ~MagicSquad() override;
     int Defend() const override {}
     void Atack(Unit*) const override;
-    void Treat(Unit*) override;
+    void Treat(Unit*) const override;
     void TreatYourself() override;
     void AddWizard(Wizard*) override;
     MagicSquad* GetMagicSquad() override { return this; }

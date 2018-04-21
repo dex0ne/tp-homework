@@ -13,7 +13,7 @@ void HumanWizard::Atack(Unit* enemy) const {
     enemy->health -= (POTION_DAMAGE + this->ATACK);
 }
 
-void HumanWizard::Treat(Unit* friendly) {
+void HumanWizard::Treat(Unit* friendly) const {
     friendly->health += POTION_REGENERATION;
 }
 

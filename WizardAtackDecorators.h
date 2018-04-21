@@ -13,7 +13,7 @@ public:
     IWizardAtackDecorator() {}
     int Defend() const override {}
     virtual void Atack(Unit*) const = 0;
-    void Treat(Unit*) override {}
+    void Treat(Unit*) const override {}
     void TreatYourself() override {}
     void AddWizard(Wizard*) override { throw std::runtime_error("I can't!"); }
 };

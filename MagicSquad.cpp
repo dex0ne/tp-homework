@@ -16,7 +16,7 @@ void MagicSquad::Atack(Unit* enemy) const {
     }
 }
 
-void MagicSquad::Treat(Unit* unit) {
+void MagicSquad::Treat(Unit* unit) const {
     for (size_t i = 0; i < wizards.size(); ++i) {
         wizards[i]->Treat(unit);
     }

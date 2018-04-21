@@ -16,7 +16,7 @@ public:
     virtual ~Wizard() {}
     virtual int Defend() const = 0;
     virtual void Atack(Unit*) const = 0;
-    virtual void Treat(Unit*) = 0;
+    virtual void Treat(Unit*) const = 0;
     virtual void TreatYourself() = 0;
     virtual void AddWizard(Wizard*) { throw std::runtime_error("I can't!"); }
     virtual MagicSquad* GetMagicSquad() { return nullptr; }
