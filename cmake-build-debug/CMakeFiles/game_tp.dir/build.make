@@ -440,6 +440,150 @@ CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides: CMakeFiles/game_t
 CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.provides.build: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
 
 
+CMakeFiles/game_tp.dir/Game.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/game_tp.dir/Game.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\Game.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\Game.cpp
+
+CMakeFiles/game_tp.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/Game.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\Game.cpp > CMakeFiles\game_tp.dir\Game.cpp.i
+
+CMakeFiles/game_tp.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/Game.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\Game.cpp -o CMakeFiles\game_tp.dir\Game.cpp.s
+
+CMakeFiles/game_tp.dir/Game.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/Game.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/Game.cpp.obj.provides: CMakeFiles/game_tp.dir/Game.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Game.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/Game.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/Game.cpp.obj.provides.build: CMakeFiles/game_tp.dir/Game.cpp.obj
+
+
+CMakeFiles/game_tp.dir/Command.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/game_tp.dir/Command.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\Command.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\Command.cpp
+
+CMakeFiles/game_tp.dir/Command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/Command.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\Command.cpp > CMakeFiles\game_tp.dir\Command.cpp.i
+
+CMakeFiles/game_tp.dir/Command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/Command.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\Command.cpp -o CMakeFiles\game_tp.dir\Command.cpp.s
+
+CMakeFiles/game_tp.dir/Command.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/Command.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/Command.cpp.obj.provides: CMakeFiles/game_tp.dir/Command.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Command.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/Command.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/Command.cpp.obj.provides.build: CMakeFiles/game_tp.dir/Command.cpp.obj
+
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../CreateUnitCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\CreateUnitCommand.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\CreateUnitCommand.cpp
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\CreateUnitCommand.cpp > CMakeFiles\game_tp.dir\CreateUnitCommand.cpp.i
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\CreateUnitCommand.cpp -o CMakeFiles\game_tp.dir\CreateUnitCommand.cpp.s
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.provides: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.provides.build: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
+
+
+CMakeFiles/game_tp.dir/Process.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/game_tp.dir/Process.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\Process.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\Process.cpp
+
+CMakeFiles/game_tp.dir/Process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/Process.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\Process.cpp > CMakeFiles\game_tp.dir\Process.cpp.i
+
+CMakeFiles/game_tp.dir/Process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/Process.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\Process.cpp -o CMakeFiles\game_tp.dir\Process.cpp.s
+
+CMakeFiles/game_tp.dir/Process.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/Process.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/Process.cpp.obj.provides: CMakeFiles/game_tp.dir/Process.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Process.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/Process.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/Process.cpp.obj.provides.build: CMakeFiles/game_tp.dir/Process.cpp.obj
+
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../SabotageCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\SabotageCommand.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\SabotageCommand.cpp
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/SabotageCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\SabotageCommand.cpp > CMakeFiles\game_tp.dir\SabotageCommand.cpp.i
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/SabotageCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\SabotageCommand.cpp -o CMakeFiles\game_tp.dir\SabotageCommand.cpp.s
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides.build: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
+
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj: ../EnemyPlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\EnemyPlayer.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp > CMakeFiles\game_tp.dir\EnemyPlayer.cpp.i
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp -o CMakeFiles\game_tp.dir\EnemyPlayer.cpp.s
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires:
+
+.PHONY : CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides
+
+CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides.build: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
+
+
 # Object files for target game_tp
 game_tp_OBJECTS = \
 "CMakeFiles/game_tp.dir/main.cpp.obj" \
@@ -457,7 +601,13 @@ game_tp_OBJECTS = \
 "CMakeFiles/game_tp.dir/Army.cpp.obj" \
 "CMakeFiles/game_tp.dir/Player.cpp.obj" \
 "CMakeFiles/game_tp.dir/MagicSquad.cpp.obj" \
-"CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj"
+"CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj" \
+"CMakeFiles/game_tp.dir/Game.cpp.obj" \
+"CMakeFiles/game_tp.dir/Command.cpp.obj" \
+"CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj" \
+"CMakeFiles/game_tp.dir/Process.cpp.obj" \
+"CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj" \
+"CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
 
 # External object files for target game_tp
 game_tp_EXTERNAL_OBJECTS =
@@ -478,11 +628,17 @@ game_tp.exe: CMakeFiles/game_tp.dir/Army.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/Player.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/Game.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/Command.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/Process.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/build.make
 game_tp.exe: CMakeFiles/game_tp.dir/linklibs.rsp
 game_tp.exe: CMakeFiles/game_tp.dir/objects1.rsp
 game_tp.exe: CMakeFiles/game_tp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable game_tp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable game_tp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\game_tp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -506,6 +662,12 @@ CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Army.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Player.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/MagicSquad.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Game.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Command.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Process.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
 
 .PHONY : CMakeFiles/game_tp.dir/requires
 

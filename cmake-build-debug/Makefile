@@ -149,6 +149,87 @@ Army.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Army.cpp.s
 .PHONY : Army.cpp.s
 
+Command.obj: Command.cpp.obj
+
+.PHONY : Command.obj
+
+# target to build an object file
+Command.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Command.cpp.obj
+.PHONY : Command.cpp.obj
+
+Command.i: Command.cpp.i
+
+.PHONY : Command.i
+
+# target to preprocess a source file
+Command.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Command.cpp.i
+.PHONY : Command.cpp.i
+
+Command.s: Command.cpp.s
+
+.PHONY : Command.s
+
+# target to generate assembly for a file
+Command.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Command.cpp.s
+.PHONY : Command.cpp.s
+
+CreateUnitCommand.obj: CreateUnitCommand.cpp.obj
+
+.PHONY : CreateUnitCommand.obj
+
+# target to build an object file
+CreateUnitCommand.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
+.PHONY : CreateUnitCommand.cpp.obj
+
+CreateUnitCommand.i: CreateUnitCommand.cpp.i
+
+.PHONY : CreateUnitCommand.i
+
+# target to preprocess a source file
+CreateUnitCommand.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.i
+.PHONY : CreateUnitCommand.cpp.i
+
+CreateUnitCommand.s: CreateUnitCommand.cpp.s
+
+.PHONY : CreateUnitCommand.s
+
+# target to generate assembly for a file
+CreateUnitCommand.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.s
+.PHONY : CreateUnitCommand.cpp.s
+
+EnemyPlayer.obj: EnemyPlayer.cpp.obj
+
+.PHONY : EnemyPlayer.obj
+
+# target to build an object file
+EnemyPlayer.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
+.PHONY : EnemyPlayer.cpp.obj
+
+EnemyPlayer.i: EnemyPlayer.cpp.i
+
+.PHONY : EnemyPlayer.i
+
+# target to preprocess a source file
+EnemyPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i
+.PHONY : EnemyPlayer.cpp.i
+
+EnemyPlayer.s: EnemyPlayer.cpp.s
+
+.PHONY : EnemyPlayer.s
+
+# target to generate assembly for a file
+EnemyPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s
+.PHONY : EnemyPlayer.cpp.s
+
 Factory.obj: Factory.cpp.obj
 
 .PHONY : Factory.obj
@@ -175,6 +256,33 @@ Factory.s: Factory.cpp.s
 Factory.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Factory.cpp.s
 .PHONY : Factory.cpp.s
+
+Game.obj: Game.cpp.obj
+
+.PHONY : Game.obj
+
+# target to build an object file
+Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Game.cpp.obj
+.PHONY : Game.cpp.obj
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Game.cpp.s
+.PHONY : Game.cpp.s
 
 HumanFactory.obj: HumanFactory.cpp.obj
 
@@ -364,6 +472,60 @@ Population.s: Population.cpp.s
 Population.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Population.cpp.s
 .PHONY : Population.cpp.s
+
+Process.obj: Process.cpp.obj
+
+.PHONY : Process.obj
+
+# target to build an object file
+Process.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Process.cpp.obj
+.PHONY : Process.cpp.obj
+
+Process.i: Process.cpp.i
+
+.PHONY : Process.i
+
+# target to preprocess a source file
+Process.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Process.cpp.i
+.PHONY : Process.cpp.i
+
+Process.s: Process.cpp.s
+
+.PHONY : Process.s
+
+# target to generate assembly for a file
+Process.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Process.cpp.s
+.PHONY : Process.cpp.s
+
+SabotageCommand.obj: SabotageCommand.cpp.obj
+
+.PHONY : SabotageCommand.obj
+
+# target to build an object file
+SabotageCommand.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
+.PHONY : SabotageCommand.cpp.obj
+
+SabotageCommand.i: SabotageCommand.cpp.i
+
+.PHONY : SabotageCommand.i
+
+# target to preprocess a source file
+SabotageCommand.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/SabotageCommand.cpp.i
+.PHONY : SabotageCommand.cpp.i
+
+SabotageCommand.s: SabotageCommand.cpp.s
+
+.PHONY : SabotageCommand.s
+
+# target to generate assembly for a file
+SabotageCommand.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/SabotageCommand.cpp.s
+.PHONY : SabotageCommand.cpp.s
 
 UfosFactory.obj: UfosFactory.cpp.obj
 
@@ -566,9 +728,21 @@ help:
 	@echo ... Army.obj
 	@echo ... Army.i
 	@echo ... Army.s
+	@echo ... Command.obj
+	@echo ... Command.i
+	@echo ... Command.s
+	@echo ... CreateUnitCommand.obj
+	@echo ... CreateUnitCommand.i
+	@echo ... CreateUnitCommand.s
+	@echo ... EnemyPlayer.obj
+	@echo ... EnemyPlayer.i
+	@echo ... EnemyPlayer.s
 	@echo ... Factory.obj
 	@echo ... Factory.i
 	@echo ... Factory.s
+	@echo ... Game.obj
+	@echo ... Game.i
+	@echo ... Game.s
 	@echo ... HumanFactory.obj
 	@echo ... HumanFactory.i
 	@echo ... HumanFactory.s
@@ -590,6 +764,12 @@ help:
 	@echo ... Population.obj
 	@echo ... Population.i
 	@echo ... Population.s
+	@echo ... Process.obj
+	@echo ... Process.i
+	@echo ... Process.s
+	@echo ... SabotageCommand.obj
+	@echo ... SabotageCommand.i
+	@echo ... SabotageCommand.s
 	@echo ... UfosFactory.obj
 	@echo ... UfosFactory.i
 	@echo ... UfosFactory.s

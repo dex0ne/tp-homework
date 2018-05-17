@@ -18,6 +18,22 @@ C:/Users/Denis/CLionProjects/game-tp/Soldier.h
 Wizard.h
 C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 
+C:/Users/Denis/CLionProjects/game-tp/Command.cpp
+Command.h
+C:/Users/Denis/CLionProjects/game-tp/Command.h
+
+C:/Users/Denis/CLionProjects/game-tp/Command.h
+Game.h
+C:/Users/Denis/CLionProjects/game-tp/Game.h
+
+C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.cpp
+CreateUnitCommand.h
+C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
+
+C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
+Command.h
+C:/Users/Denis/CLionProjects/game-tp/Command.h
+
 C:/Users/Denis/CLionProjects/game-tp/Factory.cpp
 Factory.h
 C:/Users/Denis/CLionProjects/game-tp/Factory.h
@@ -33,6 +49,14 @@ memory
 -
 map
 -
+
+C:/Users/Denis/CLionProjects/game-tp/Game.cpp
+Game.h
+C:/Users/Denis/CLionProjects/game-tp/Game.h
+
+C:/Users/Denis/CLionProjects/game-tp/Game.h
+Player.h
+C:/Users/Denis/CLionProjects/game-tp/Player.h
 
 C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp
 iostream

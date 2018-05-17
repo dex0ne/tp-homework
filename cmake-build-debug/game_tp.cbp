@@ -88,10 +88,34 @@
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Army.h">
 			<Option target="game_tp"/>
 		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Command.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Command.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.h">
+			<Option target="game_tp"/>
+		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Factory.cpp">
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Factory.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Game.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Game.h">
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp">
@@ -137,6 +161,18 @@
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Population.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Process.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Process.h">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h">
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Soldier.h">

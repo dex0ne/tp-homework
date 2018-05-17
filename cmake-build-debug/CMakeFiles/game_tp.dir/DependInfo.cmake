@@ -5,7 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Denis/CLionProjects/game-tp/Army.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Army.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/Command.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Command.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Factory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Factory.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/Game.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Game.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanFactory.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanPeaceful.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanSoldier.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanSoldier.cpp.obj"
@@ -13,6 +17,8 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Denis/CLionProjects/game-tp/MagicSquad.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/MagicSquad.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Player.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Player.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Population.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Population.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/Process.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Process.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/UfosFactory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosFactory.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/UfosPeaceful.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosPeaceful.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/UfosSoldier.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/UfosSoldier.cpp.obj"

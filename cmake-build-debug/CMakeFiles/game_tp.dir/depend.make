@@ -7,12 +7,42 @@ CMakeFiles/game_tp.dir/Army.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/Army.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/Army.cpp.obj: ../Wizard.h
 
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Command.cpp
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../Wizard.h
+
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../CreateUnitCommand.cpp
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../CreateUnitCommand.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Wizard.h
+
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Factory.cpp
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Wizard.h
+
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Game.cpp
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../Wizard.h
 
 CMakeFiles/game_tp.dir/HumanFactory.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/HumanFactory.cpp.obj: ../HumanFactory.cpp
