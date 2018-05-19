@@ -560,28 +560,28 @@ CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides: CMakeFiles/game_tp.dir/
 CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.provides.build: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
 
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj: CMakeFiles/game_tp.dir/flags.make
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj: ../EnemyPlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\EnemyPlayer.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp
+CMakeFiles/game_tp.dir/Chain.cpp.obj: CMakeFiles/game_tp.dir/flags.make
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Chain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Denis\CLionProjects\game-tp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/game_tp.dir/Chain.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\game_tp.dir\Chain.cpp.obj -c C:\Users\Denis\CLionProjects\game-tp\Chain.cpp
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp > CMakeFiles\game_tp.dir\EnemyPlayer.cpp.i
+CMakeFiles/game_tp.dir/Chain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game_tp.dir/Chain.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Denis\CLionProjects\game-tp\Chain.cpp > CMakeFiles\game_tp.dir\Chain.cpp.i
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\EnemyPlayer.cpp -o CMakeFiles\game_tp.dir\EnemyPlayer.cpp.s
+CMakeFiles/game_tp.dir/Chain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game_tp.dir/Chain.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Denis\CLionProjects\game-tp\Chain.cpp -o CMakeFiles\game_tp.dir\Chain.cpp.s
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires:
+CMakeFiles/game_tp.dir/Chain.cpp.obj.requires:
 
-.PHONY : CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
+.PHONY : CMakeFiles/game_tp.dir/Chain.cpp.obj.requires
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides.build
-.PHONY : CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides
+CMakeFiles/game_tp.dir/Chain.cpp.obj.provides: CMakeFiles/game_tp.dir/Chain.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Chain.cpp.obj.provides.build
+.PHONY : CMakeFiles/game_tp.dir/Chain.cpp.obj.provides
 
-CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.provides.build: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
+CMakeFiles/game_tp.dir/Chain.cpp.obj.provides.build: CMakeFiles/game_tp.dir/Chain.cpp.obj
 
 
 # Object files for target game_tp
@@ -607,7 +607,7 @@ game_tp_OBJECTS = \
 "CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj" \
 "CMakeFiles/game_tp.dir/Process.cpp.obj" \
 "CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj" \
-"CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
+"CMakeFiles/game_tp.dir/Chain.cpp.obj"
 
 # External object files for target game_tp
 game_tp_EXTERNAL_OBJECTS =
@@ -633,7 +633,7 @@ game_tp.exe: CMakeFiles/game_tp.dir/Command.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/Process.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
-game_tp.exe: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
+game_tp.exe: CMakeFiles/game_tp.dir/Chain.cpp.obj
 game_tp.exe: CMakeFiles/game_tp.dir/build.make
 game_tp.exe: CMakeFiles/game_tp.dir/linklibs.rsp
 game_tp.exe: CMakeFiles/game_tp.dir/objects1.rsp
@@ -667,7 +667,7 @@ CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Command.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Process.cpp.obj.requires
 CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj.requires
-CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj.requires
+CMakeFiles/game_tp.dir/requires: CMakeFiles/game_tp.dir/Chain.cpp.obj.requires
 
 .PHONY : CMakeFiles/game_tp.dir/requires
 

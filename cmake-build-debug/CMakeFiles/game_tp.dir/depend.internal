@@ -7,14 +7,31 @@ CMakeFiles/game_tp.dir/Army.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Soldier.h
  C:/Users/Denis/CLionProjects/game-tp/Unit.h
  C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj
+ C:/Users/Denis/CLionProjects/game-tp/Chain.cpp
+ C:/Users/Denis/CLionProjects/game-tp/Chain.h
+ C:/Users/Denis/CLionProjects/game-tp/Command.h
+ C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
+ C:/Users/Denis/CLionProjects/game-tp/Factory.h
+ C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
+ C:/Users/Denis/CLionProjects/game-tp/Player.h
+ C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+ C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Unit.h
+ C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 CMakeFiles/game_tp.dir/Command.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Command.cpp
  C:/Users/Denis/CLionProjects/game-tp/Command.h
  C:/Users/Denis/CLionProjects/game-tp/Factory.h
  C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
  C:/Users/Denis/CLionProjects/game-tp/Player.h
  C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Unit.h
  C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
@@ -23,9 +40,11 @@ CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
  C:/Users/Denis/CLionProjects/game-tp/Factory.h
  C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
  C:/Users/Denis/CLionProjects/game-tp/Player.h
  C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Unit.h
  C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 CMakeFiles/game_tp.dir/Factory.cpp.obj
@@ -39,9 +58,11 @@ CMakeFiles/game_tp.dir/Game.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Factory.h
  C:/Users/Denis/CLionProjects/game-tp/Game.cpp
  C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
  C:/Users/Denis/CLionProjects/game-tp/Player.h
  C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
  C:/Users/Denis/CLionProjects/game-tp/Unit.h
  C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 CMakeFiles/game_tp.dir/HumanFactory.cpp.obj
@@ -88,6 +109,36 @@ CMakeFiles/game_tp.dir/Population.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Population.cpp
  C:/Users/Denis/CLionProjects/game-tp/Population.h
  C:/Users/Denis/CLionProjects/game-tp/Unit.h
+CMakeFiles/game_tp.dir/Process.cpp.obj
+ C:/Users/Denis/CLionProjects/game-tp/Chain.h
+ C:/Users/Denis/CLionProjects/game-tp/Command.h
+ C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
+ C:/Users/Denis/CLionProjects/game-tp/Factory.h
+ C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
+ C:/Users/Denis/CLionProjects/game-tp/Player.h
+ C:/Users/Denis/CLionProjects/game-tp/Process.cpp
+ C:/Users/Denis/CLionProjects/game-tp/Process.h
+ C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+ C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Unit.h
+ C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj
+ C:/Users/Denis/CLionProjects/game-tp/Command.h
+ C:/Users/Denis/CLionProjects/game-tp/Factory.h
+ C:/Users/Denis/CLionProjects/game-tp/Game.h
+ C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
+ C:/Users/Denis/CLionProjects/game-tp/Player.h
+ C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.cpp
+ C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+ C:/Users/Denis/CLionProjects/game-tp/Soldier.h
+ C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
+ C:/Users/Denis/CLionProjects/game-tp/Unit.h
+ C:/Users/Denis/CLionProjects/game-tp/Wizard.h
+ C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Factory.h
  C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
@@ -124,7 +175,11 @@ CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
 CMakeFiles/game_tp.dir/main.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Army.h
+ C:/Users/Denis/CLionProjects/game-tp/Chain.h
+ C:/Users/Denis/CLionProjects/game-tp/Command.h
+ C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
  C:/Users/Denis/CLionProjects/game-tp/Factory.h
+ C:/Users/Denis/CLionProjects/game-tp/Game.h
  C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
  C:/Users/Denis/CLionProjects/game-tp/HumanPeaceful.h
  C:/Users/Denis/CLionProjects/game-tp/HumanSoldier.h
@@ -133,6 +188,8 @@ CMakeFiles/game_tp.dir/main.cpp.obj
  C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
  C:/Users/Denis/CLionProjects/game-tp/Player.h
  C:/Users/Denis/CLionProjects/game-tp/Population.h
+ C:/Users/Denis/CLionProjects/game-tp/Process.h
+ C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
  C:/Users/Denis/CLionProjects/game-tp/Soldier.h
  C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
  C:/Users/Denis/CLionProjects/game-tp/UfosSoldier.h

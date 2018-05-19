@@ -13,6 +13,7 @@ public:
     virtual int Defend() const = 0;
     virtual void Atack(Unit*) const = 0;
     void Info();
+    bool isDead();
     int health = 0;
     int ATACK = 0;
     const int ARMOR = 0;

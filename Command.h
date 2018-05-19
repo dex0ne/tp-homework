@@ -11,9 +11,7 @@ public:
     void setGame(Game* _game) {
         game = _game;
     }
-
 protected:
-    Player* enemy_player;
     Game* game;
 };
 

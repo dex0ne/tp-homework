@@ -5,9 +5,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Denis/CLionProjects/game-tp/Army.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Army.cpp.obj"
+  "C:/Users/Denis/CLionProjects/game-tp/Chain.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Chain.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Command.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Command.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj"
-  "C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Factory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Factory.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/Game.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/Game.cpp.obj"
   "C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp" "C:/Users/Denis/CLionProjects/game-tp/cmake-build-debug/CMakeFiles/game_tp.dir/HumanFactory.cpp.obj"

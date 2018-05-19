@@ -7,13 +7,30 @@ CMakeFiles/game_tp.dir/Army.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/Army.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/Army.cpp.obj: ../Wizard.h
 
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Chain.cpp
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Chain.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../CreateUnitCommand.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../HumanFactory.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../SabotageCommand.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../UfosFactory.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/Chain.cpp.obj: ../Wizard.h
+
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Command.cpp
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Command.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../HumanFactory.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Player.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Command.cpp.obj: ../UfosFactory.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/Command.cpp.obj: ../Wizard.h
 
@@ -22,9 +39,11 @@ CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../CreateUnitCommand.cpp
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../CreateUnitCommand.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../HumanFactory.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Player.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../UfosFactory.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj: ../Wizard.h
 
@@ -38,9 +57,11 @@ CMakeFiles/game_tp.dir/Factory.cpp.obj: ../Wizard.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Game.cpp
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../HumanFactory.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Player.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Game.cpp.obj: ../UfosFactory.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Unit.h
 CMakeFiles/game_tp.dir/Game.cpp.obj: ../Wizard.h
 
@@ -88,6 +109,36 @@ CMakeFiles/game_tp.dir/Population.cpp.obj: ../Population.cpp
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Population.h
 CMakeFiles/game_tp.dir/Population.cpp.obj: ../Unit.h
 
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Chain.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../CreateUnitCommand.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../HumanFactory.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Process.cpp
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Process.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../SabotageCommand.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../UfosFactory.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/Process.cpp.obj: ../Wizard.h
+
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Game.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../HumanFactory.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Peaceful.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Player.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../SabotageCommand.cpp
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../SabotageCommand.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Soldier.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../UfosFactory.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Unit.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../Wizard.h
+CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj: ../WizardAtackDecorators.h
+
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj: ../Factory.h
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/UfosFactory.cpp.obj: ../Soldier.h
@@ -123,7 +174,11 @@ CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj: ../WizardAtackDecorators.c
 CMakeFiles/game_tp.dir/WizardAtackDecorators.cpp.obj: ../WizardAtackDecorators.h
 
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Army.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../Chain.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../Command.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../CreateUnitCommand.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Factory.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../Game.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanFactory.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanPeaceful.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../HumanSoldier.h
@@ -132,6 +187,8 @@ CMakeFiles/game_tp.dir/main.cpp.obj: ../MagicSquad.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Peaceful.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Player.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Population.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../Process.h
+CMakeFiles/game_tp.dir/main.cpp.obj: ../SabotageCommand.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../Soldier.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../UfosFactory.h
 CMakeFiles/game_tp.dir/main.cpp.obj: ../UfosSoldier.h

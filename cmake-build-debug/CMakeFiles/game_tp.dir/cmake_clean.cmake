@@ -20,7 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.obj"
   "CMakeFiles/game_tp.dir/Process.cpp.obj"
   "CMakeFiles/game_tp.dir/SabotageCommand.cpp.obj"
-  "CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj"
+  "CMakeFiles/game_tp.dir/Chain.cpp.obj"
   "game_tp.pdb"
   "game_tp.exe"
   "game_tp.exe.manifest"

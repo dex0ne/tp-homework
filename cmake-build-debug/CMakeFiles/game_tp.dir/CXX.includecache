@@ -18,6 +18,18 @@ C:/Users/Denis/CLionProjects/game-tp/Soldier.h
 Wizard.h
 C:/Users/Denis/CLionProjects/game-tp/Wizard.h
 
+C:/Users/Denis/CLionProjects/game-tp/Chain.cpp
+Chain.h
+C:/Users/Denis/CLionProjects/game-tp/Chain.h
+
+C:/Users/Denis/CLionProjects/game-tp/Chain.h
+Game.h
+C:/Users/Denis/CLionProjects/game-tp/Game.h
+CreateUnitCommand.h
+C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h
+SabotageCommand.h
+C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+
 C:/Users/Denis/CLionProjects/game-tp/Command.cpp
 Command.h
 C:/Users/Denis/CLionProjects/game-tp/Command.h
@@ -57,6 +69,10 @@ C:/Users/Denis/CLionProjects/game-tp/Game.h
 C:/Users/Denis/CLionProjects/game-tp/Game.h
 Player.h
 C:/Users/Denis/CLionProjects/game-tp/Player.h
+UfosFactory.h
+C:/Users/Denis/CLionProjects/game-tp/UfosFactory.h
+HumanFactory.h
+C:/Users/Denis/CLionProjects/game-tp/HumanFactory.h
 
 C:/Users/Denis/CLionProjects/game-tp/HumanFactory.cpp
 iostream
@@ -135,6 +151,8 @@ string
 -
 vector
 -
+random
+-
 Factory.h
 C:/Users/Denis/CLionProjects/game-tp/Factory.h
 
@@ -147,6 +165,34 @@ Peaceful.h
 C:/Users/Denis/CLionProjects/game-tp/Peaceful.h
 memory
 -
+
+C:/Users/Denis/CLionProjects/game-tp/Process.cpp
+Process.h
+C:/Users/Denis/CLionProjects/game-tp/Process.h
+
+C:/Users/Denis/CLionProjects/game-tp/Process.h
+iostream
+-
+Game.h
+C:/Users/Denis/CLionProjects/game-tp/Game.h
+Command.h
+C:/Users/Denis/CLionProjects/game-tp/Command.h
+Chain.h
+C:/Users/Denis/CLionProjects/game-tp/Chain.h
+
+C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.cpp
+SabotageCommand.h
+C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+iostream
+-
+WizardAtackDecorators.h
+C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
+random
+-
+
+C:/Users/Denis/CLionProjects/game-tp/SabotageCommand.h
+Command.h
+C:/Users/Denis/CLionProjects/game-tp/Command.h
 
 C:/Users/Denis/CLionProjects/game-tp/Soldier.h
 stdexcept
@@ -255,6 +301,8 @@ WizardAtackDecorators.h
 C:/Users/Denis/CLionProjects/game-tp/WizardAtackDecorators.h
 Player.h
 C:/Users/Denis/CLionProjects/game-tp/Player.h
+Process.h
+C:/Users/Denis/CLionProjects/game-tp/Process.h
 map
 -
 memory

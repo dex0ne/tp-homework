@@ -14,12 +14,15 @@
 #include "UfosWizard.h"
 #include "WizardAtackDecorators.h"
 #include "Player.h"
+#include "Process.h"
 #include <map>
 #include <memory>
 
 using namespace std;
 
-int main(){
-
+int main() {
+    Process* my_game = new Process;
+    my_game->StartProcess();
+    delete my_game;
     return 0;
 }

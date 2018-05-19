@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Army.h">
 			<Option target="game_tp"/>
 		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Chain.cpp">
+			<Option target="game_tp"/>
+		</Unit>
+		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Chain.h">
+			<Option target="game_tp"/>
+		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Command.cpp">
 			<Option target="game_tp"/>
 		</Unit>
@@ -98,12 +104,6 @@
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/CreateUnitCommand.h">
-			<Option target="game_tp"/>
-		</Unit>
-		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.cpp">
-			<Option target="game_tp"/>
-		</Unit>
-		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/EnemyPlayer.h">
 			<Option target="game_tp"/>
 		</Unit>
 		<Unit filename="C:/Users/Denis/CLionProjects/game-tp/Factory.cpp">

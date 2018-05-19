@@ -149,6 +149,33 @@ Army.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Army.cpp.s
 .PHONY : Army.cpp.s
 
+Chain.obj: Chain.cpp.obj
+
+.PHONY : Chain.obj
+
+# target to build an object file
+Chain.cpp.obj:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Chain.cpp.obj
+.PHONY : Chain.cpp.obj
+
+Chain.i: Chain.cpp.i
+
+.PHONY : Chain.i
+
+# target to preprocess a source file
+Chain.cpp.i:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Chain.cpp.i
+.PHONY : Chain.cpp.i
+
+Chain.s: Chain.cpp.s
+
+.PHONY : Chain.s
+
+# target to generate assembly for a file
+Chain.cpp.s:
+	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/Chain.cpp.s
+.PHONY : Chain.cpp.s
+
 Command.obj: Command.cpp.obj
 
 .PHONY : Command.obj
@@ -202,33 +229,6 @@ CreateUnitCommand.s: CreateUnitCommand.cpp.s
 CreateUnitCommand.cpp.s:
 	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/CreateUnitCommand.cpp.s
 .PHONY : CreateUnitCommand.cpp.s
-
-EnemyPlayer.obj: EnemyPlayer.cpp.obj
-
-.PHONY : EnemyPlayer.obj
-
-# target to build an object file
-EnemyPlayer.cpp.obj:
-	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.obj
-.PHONY : EnemyPlayer.cpp.obj
-
-EnemyPlayer.i: EnemyPlayer.cpp.i
-
-.PHONY : EnemyPlayer.i
-
-# target to preprocess a source file
-EnemyPlayer.cpp.i:
-	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.i
-.PHONY : EnemyPlayer.cpp.i
-
-EnemyPlayer.s: EnemyPlayer.cpp.s
-
-.PHONY : EnemyPlayer.s
-
-# target to generate assembly for a file
-EnemyPlayer.cpp.s:
-	$(MAKE) -f CMakeFiles\game_tp.dir\build.make CMakeFiles/game_tp.dir/EnemyPlayer.cpp.s
-.PHONY : EnemyPlayer.cpp.s
 
 Factory.obj: Factory.cpp.obj
 
@@ -728,15 +728,15 @@ help:
 	@echo ... Army.obj
 	@echo ... Army.i
 	@echo ... Army.s
+	@echo ... Chain.obj
+	@echo ... Chain.i
+	@echo ... Chain.s
 	@echo ... Command.obj
 	@echo ... Command.i
 	@echo ... Command.s
 	@echo ... CreateUnitCommand.obj
 	@echo ... CreateUnitCommand.i
 	@echo ... CreateUnitCommand.s
-	@echo ... EnemyPlayer.obj
-	@echo ... EnemyPlayer.i
-	@echo ... EnemyPlayer.s
 	@echo ... Factory.obj
 	@echo ... Factory.i
 	@echo ... Factory.s

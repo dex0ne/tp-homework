@@ -11,3 +11,7 @@ void Unit::Info() {
     std::cout << this->name;
 }
 
+bool Unit::isDead() {
+    return health <= 0;
+}
+

@@ -8,8 +8,11 @@
 
 #include <iostream>
 #include "Game.h"
+#include "Command.h"
+#include "Chain.h"
 
 class Process {
+public:
     Process() {}
     void StartProcess() {
         char cmd;
@@ -30,7 +33,37 @@ class Process {
     }
     void GameProcess(std::string& name, std::string& race) {
         Game* CurrentGame = new Game(name, race);
+        CommandHandler* crCom = new CreateCommandHandler;
+        CommandHandler* sabCom = new SabotageCommandHandler;
+        crCom->SetNext(sabCom);
+        crCom->SetGame(CurrentGame);
+        sabCom->SetGame(CurrentGame);
         int day = 1;
+        std::cout << "";
+        std::string command = "1";
+        int prior = 99;
+        while(command != "exit") {
+            if (CurrentGame->isPlayerWin()) {
+                std::cout << "YOU ARE WINNER!";
+                break;
+            }
+            std::cout << "DAY: " << day << "\n";
+            std::cout << "Coins: " << CurrentGame->currentPlayer->playersCoins << "\n";
+            std::cout << "Soldiers: " << CurrentGame->currentPlayer->playersSoldiers.size() << "\n";
+            std::cout << "Peaceful: " << CurrentGame->currentPlayer->playersPeacefulHeroes.size() << "\n";
+            std::cout << "Wizards: " << CurrentGame->currentPlayer->playersWizards.size() << "\n";
+            std::cout << "What are we doing today?\n";
+            std::cout << "Sabotaging the enemy?   :   SE\nCreate a new unit?   :   CU\n";
+            std::cin >> command;
+            if (command == "SE") {
+                prior = 1;
+            } else {
+                prior = 2;
+            }
+            crCom->executeCommand(prior);
+            CurrentGame->GetTaxesPerDay();
+            day++;
+        }
         
     }
 };
