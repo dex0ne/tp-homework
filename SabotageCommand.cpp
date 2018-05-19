@@ -4,10 +4,7 @@
 #include <random>
 
 void SabotageCommand::execute() {
-    std::cout << "What will we do? :\nAT - just attack\nSA - super attack(wizards)";
-    std::string cmd = "";
-    std::cin >> cmd;
-    if (cmd == "AT") {
+    if (type == "AT") {
         int lowerBound = 0;
         int upperBound = game->currentPlayer->playersSoldiers.size();
         std::uniform_int_distribution<int> unif(lowerBound,upperBound);
@@ -29,7 +26,7 @@ void SabotageCommand::execute() {
             }
         }
 
-    } else if (cmd == "SA") {
+    } else if (type == "SA") {
         int lowerBound = 0;
         int upperBound = game->currentPlayer->playersWizards.size();
         std::uniform_int_distribution<int> unif(lowerBound,upperBound);

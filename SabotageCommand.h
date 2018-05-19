@@ -4,9 +4,9 @@
 
 class SabotageCommand : public Command {
 private:
-    std::string unitName;
+    std::string type;
 public:
-    SabotageCommand() {}
+    SabotageCommand(std::string _type) : type(_type) {}
     void execute() override;
 };
 

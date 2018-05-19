@@ -66,7 +66,10 @@ public:
     }*/
     void executeCommand(int level) override {
         if (level == 1) {
-            Command* curCommand = new SabotageCommand;
+            std::cout << "What will we do? :\nAT - just attack\nSA - super attack(wizards)";
+            std::string cmd = "";
+            std::cin >> cmd;
+            Command* curCommand = new SabotageCommand(cmd);
             curCommand->setGame(currentGame);
             curCommand->execute();
             delete curCommand;
